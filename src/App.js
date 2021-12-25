@@ -1,35 +1,33 @@
-import React from 'react'
-import './index';
+import React from "react";
+import "./index";
 
 function App() {
   return (
     <div className="form-container">
-      <form className='register-form'>
+      <form className="register-form">
         <input
-          id='first-name'
-          className='form-field'
+          id="first-name"
+          className="form-field"
           type="text"
-          placeholder='First Name'
-          name='firstName'
+          placeholder="First Name"
+          name="firstName"
         />
       </form>
       <input
-        id='last-name'
-        className='form-field'
+        id="last-name"
+        className="form-field"
         type="text"
-        placeholder='Last Name'
-        name='lastName'
+        placeholder="Last Name"
+        name="lastName"
       />
       <input
-        id='email'
-        className='form-field'
+        id="email"
+        className="form-field"
         type="text"
-        placeholder='Email'
-        name='email'
+        placeholder="Email"
+        name="email"
       />
-      <button
-        className='form-field'
-        type='submit'>
+      <button className="form-field" type="submit">
         Register
       </button>
     </div>
